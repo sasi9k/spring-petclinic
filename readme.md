@@ -136,3 +136,4 @@ The Spring PetClinic sample application is released under version 2.0 of the [Ap
 
 Ensure IP address is changed in settings.xml
 End of Readme file
+Ram comment
