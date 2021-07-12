@@ -318,12 +318,12 @@
   <snapshotRepository>
 	  <id>nexus</id>
 	  <name>Snapshots</name>
-    <url>http://3.19.229.168:8081/repository/maven-snapshots</url>
+    <url>http://52.14.91.90:8081/repository/maven-snapshots</url>
   </snapshotRepository>
   <repository>
 	  <id>nexus</id>
 	  <name>Releases</name>
-    <url>http://3.19.229.168:8081/repository/maven-releases</url>
+    <url>http://52.14.91.90:8081/repository/maven-releases</url>
   </repository>
 </distributionManagement>
   <profiles>
