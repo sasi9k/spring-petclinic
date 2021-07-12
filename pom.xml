@@ -153,7 +153,7 @@
           </dependency>
         </dependencies>
         <executions>
-          <execution>
+       <!--   <execution>
             <id>nohttp-checkstyle-validation</id>
             <phase>validate</phase>
             <configuration>
@@ -167,7 +167,7 @@
             <goals>
               <goal>check</goal>
             </goals>
-          </execution>
+          </execution> -->
         </executions>
       </plugin>
       <plugin>
@@ -314,6 +314,19 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+
+ <distributionManagement>
+  <snapshotRepository>
+	  <id>nexus</id>
+	  <name>Snapshots</name>
+    <url>http://54.89.28.156:8081/repository/maven-snapshots</url>
+  </snapshotRepository>
+  <repository>
+	  <id>nexus</id>
+	  <name>Releases</name>
+    <url>http://54.89.28.156:8081/repository/maven-releases</url>
+  </repository>
+</distributionManagement>
 
   <profiles>
     <profile>
